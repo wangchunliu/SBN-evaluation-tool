@@ -1,7 +1,0 @@
-#!/bin/bash
-# gold.penman
-python ~/SBN-evaluation/ud-boxer-newsense/sbnfile2penman.py --input_path file2eval/gold.sbn --output_path file2eval/gold.penman
-# parsed.penman
-python ~/SBN-evaluation/ud-boxer-newsense/sbnfile2penman.py --input_path file2eval/parsed.sbn --output_path file2eval/parsed.penman
-
-sh ./evaluation.sh file2eval/parsed.penman file2eval/gold.penman
