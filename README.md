@@ -13,7 +13,7 @@ Each category includes more fine-grained evaluation metrics. All the metrics are
 ### Usage
 ```
 cd 1.evaluation-tool-overall
-sh run.sh en dev  ## $LANG and $ DATA
+sh run.sh en dev  ## $LANG and $DATA
 ```
 ### Details
 
