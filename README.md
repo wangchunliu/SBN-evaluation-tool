@@ -17,7 +17,7 @@ sh run.sh en dev  ## $LANG and $ DATA
 ```
 ### Details
 
-Our codes in ```sbnfile2eval.py``` are designed for English data and Chinese data evaluation, if you want to evaluation other data, you need change the file in gold_output/path.out.$DATA, which contains gold data and their paths. 
+Our codes in ```sbnfile2eval.py``` are designed for English data and Chinese data evaluation, if you want to evaluation other data, you need change the file in ```gold_output/path.out.$DATA```, which contains gold data and their paths. 
 
 You need to pay special attention to lines 191-196 in the ```sbnfile2eval.py```, and rewrite them according to your own reference data.
 
