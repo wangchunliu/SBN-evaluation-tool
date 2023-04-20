@@ -1,0 +1,19 @@
+(b0 / "box"
+	:member (s0 / "sense"
+		:lemma "female"
+		:pos "n"
+		:Name (c0 / "Tracy"))
+	:member (s1 / "sense"
+		:lemma "lose"
+		:pos "v"
+		:Agent s0
+		:Time (s2 / "sense"
+			:lemma "time"
+			:pos "n"
+			:TPR (c1 / "now"))
+		:Theme (s3 / "sense"
+			:lemma "glasses"
+			:pos "n"
+			:User s0))
+	:member s2
+	:member s3)

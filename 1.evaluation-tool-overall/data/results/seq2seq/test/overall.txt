@@ -1,0 +1,2236 @@
+
+    2022_05_15_11_24_12 (gold and silver)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1020
+    FAILED DOCS:          24
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.925 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.931 (0.0 - 1.0)
+    
+
+
+    2022_05_15_11_25_58 (gold only)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1005
+    FAILED DOCS:          39
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.84 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.846 (0.0 - 1.0)
+    
+
+
+    2022_06_13_17_40_40
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='../eval.file/test.out.forevaluation', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          827
+    FAILED DOCS:          217
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.742 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.755 (0.0 - 1.0)
+    
+
+
+    2022_06_13_17_43_24
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='data/seq2seq/seq2seq_silver_and_gold_test.txt', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1020
+    FAILED DOCS:          24
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.925 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.931 (0.0 - 1.0)
+    
+
+
+    2022_06_14_14_37_52
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='outputs/results.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          822
+    FAILED DOCS:          222
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.737 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.747 (0.0 - 1.0)
+    
+
+
+    2022_06_14_14_40_26
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='outputs/results.2', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          824
+    FAILED DOCS:          220
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.749 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.756 (0.0 - 1.0)
+    
+
+
+    2022_06_14_14_41_03
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='outputs/results.3', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          812
+    FAILED DOCS:          232
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.715 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.727 (0.0 - 1.0)
+    
+
+
+    2022_06_14_15_21_22
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='new-outputs/results.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          818
+    FAILED DOCS:          226
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.508 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.509 (0.0 - 1.0)
+    
+
+
+    2022_06_14_15_22_36
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='new-outputs/results.2', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          816
+    FAILED DOCS:          228
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.509 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.511 (0.0 - 1.0)
+    
+
+
+    2022_06_14_15_23_28
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='new-outputs/results.3', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          819
+    FAILED DOCS:          225
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.509 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.509 (0.0 - 1.0)
+    
+
+
+    2022_06_14_16_26_30
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='new-outputs/results.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          459
+    FAILED DOCS:          108
+    TOTAL DOCS:           567
+
+    AVERAGE F1 (strict):  0.761 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.771 (0.0 - 1.0)
+    
+
+
+    2022_06_14_16_27_37
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='new-outputs/results.2', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          457
+    FAILED DOCS:          110
+    TOTAL DOCS:           567
+
+    AVERAGE F1 (strict):  0.765 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.773 (0.0 - 1.0)
+    
+
+
+    2022_06_14_16_28_13
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='new-outputs/results.3', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          460
+    FAILED DOCS:          107
+    TOTAL DOCS:           567
+
+    AVERAGE F1 (strict):  0.747 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.759 (0.0 - 1.0)
+    
+
+
+    2022_06_14_19_13_27
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='new-outputs/results.txt1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          109
+    TOTAL DOCS:           567
+
+    AVERAGE F1 (strict):  0.754 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.765 (0.0 - 1.0)
+    
+
+
+    2022_06_14_21_23_17
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='test.out.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1020
+    FAILED DOCS:          24
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.925 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.931 (0.0 - 1.0)
+    
+
+
+    2022_06_14_21_47_27
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='test.out.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          819
+    FAILED DOCS:          225
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.73 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.74 (0.0 - 1.0)
+    
+
+
+    2022_06_14_22_02_57
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='test.out.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1024
+    FAILED DOCS:          20
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.922 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.934 (0.0 - 1.0)
+    
+
+
+    2022_06_14_22_06_00
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='bart.results', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1024
+    FAILED DOCS:          20
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.922 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.934 (0.0 - 1.0)
+    
+
+
+    2022_06_14_22_08_29
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='bert.results', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1020
+    FAILED DOCS:          24
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.925 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.931 (0.0 - 1.0)
+    
+
+
+    2022_06_14_22_24_58
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='bart.results', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1010
+    FAILED DOCS:          34
+    TOTAL DOCS:           1044
+
+    AVERAGE F1 (strict):  0.929 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.938 (0.0 - 1.0)
+    
+
+
+    2022_06_22_23_23_09
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='new_results_en_path.txt', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          971
+    FAILED DOCS:          67
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.884 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.896 (0.0 - 1.0)
+    
+
+
+    2022_06_24_10_30_26
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='new_results_en_path.txt', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          972
+    FAILED DOCS:          66
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.883 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.895 (0.0 - 1.0)
+    
+
+
+    2022_06_24_10_58_00
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='outputs/en_results_path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          987
+    FAILED DOCS:          51
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.899 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.911 (0.0 - 1.0)
+    
+
+
+    2022_06_24_21_33_41
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='test.out.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1025
+    FAILED DOCS:          13
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.929 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.943 (0.0 - 1.0)
+    
+
+
+    2022_07_05_22_32_59
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.0.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1031
+    FAILED DOCS:          7
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.934 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.947 (0.0 - 1.0)
+    
+
+
+    2022_07_05_22_37_06
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.1.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1030
+    FAILED DOCS:          8
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.936 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.949 (0.0 - 1.0)
+    
+
+
+    2022_07_05_22_40_50
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.2.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1024
+    FAILED DOCS:          14
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.93 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.943 (0.0 - 1.0)
+    
+
+
+    2022_07_05_22_42_09
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.3.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1027
+    FAILED DOCS:          11
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.932 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.944 (0.0 - 1.0)
+    
+
+
+    2022_07_05_22_43_02
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.4.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1026
+    FAILED DOCS:          12
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.935 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.947 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_13_12
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.4.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1026
+    FAILED DOCS:          12
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.935 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.947 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_34_43
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold', input_file='parsing-results/new_de_DE_0.0.1', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          504
+    FAILED DOCS:          41
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.8 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.804 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_37_16
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold', input_file='parsing-results/new_de_DE_0.1.1', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          522
+    FAILED DOCS:          23
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.833 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.838 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_38_29
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold', input_file='parsing-results/new_de_DE_0.2.1', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          528
+    FAILED DOCS:          17
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.862 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.868 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_39_23
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold', input_file='parsing-results/new_de_DE_0.3.1', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          522
+    FAILED DOCS:          23
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.86 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.866 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_40_39
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold', input_file='parsing-results/new_de_DE_0.4.1', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          540
+    FAILED DOCS:          5
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.907 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.913 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_43_51
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold', input_file='parsing-results/new_de_DE_0.5.1', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          541
+    FAILED DOCS:          4
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.895 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.904 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_46_32
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.5.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1029
+    FAILED DOCS:          9
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.924 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.939 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_48_36
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold', input_file='parsing-results/new_it_IT_0.0.1', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          411
+    FAILED DOCS:          48
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.761 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.765 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_49_24
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold', input_file='parsing-results/new_it_IT_0.1.1', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          438
+    FAILED DOCS:          21
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.828 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.831 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_50_08
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold', input_file='parsing-results/new_it_IT_0.2.1', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          447
+    FAILED DOCS:          12
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.867 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.872 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_50_52
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold', input_file='parsing-results/new_it_IT_0.3.1', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          438
+    FAILED DOCS:          21
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.853 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.859 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_51_36
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold', input_file='parsing-results/new_it_IT_0.4.1', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          449
+    FAILED DOCS:          10
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.905 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.912 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_52_25
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold', input_file='parsing-results/new_it_IT_0.5.1', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          452
+    FAILED DOCS:          7
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.9 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.908 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_53_37
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold', input_file='parsing-results/new_nl_XX_0.0.1', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          425
+    FAILED DOCS:          65
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.688 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.689 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_54_30
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold', input_file='parsing-results/new_nl_XX_0.1.1', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          469
+    FAILED DOCS:          21
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.782 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.785 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_55_22
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold', input_file='parsing-results/new_nl_XX_0.2.1', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          469
+    FAILED DOCS:          21
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.823 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.828 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_56_07
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold', input_file='parsing-results/new_nl_XX_0.3.1', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          466
+    FAILED DOCS:          24
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.819 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.824 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_57_00
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold', input_file='parsing-results/new_nl_XX_0.4.1', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          483
+    FAILED DOCS:          7
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.893 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.901 (0.0 - 1.0)
+    
+
+
+    2022_07_05_23_57_51
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold', input_file='parsing-results/new_nl_XX_0.5.1', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          479
+    FAILED DOCS:          11
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.875 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.884 (0.0 - 1.0)
+    
+
+
+    2022_11_17_10_56_53
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.0.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1031
+    FAILED DOCS:          7
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.934 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.947 (0.0 - 1.0)
+    
+
+
+    2022_11_17_11_12_29
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.5.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1029
+    FAILED DOCS:          9
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.924 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.939 (0.0 - 1.0)
+    
+
+
+    2022_11_17_11_32_16
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.4.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1026
+    FAILED DOCS:          12
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.935 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.947 (0.0 - 1.0)
+    
+
+
+    2022_11_17_11_38_40
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='parsing-results/new_en_XX_0.3.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1027
+    FAILED DOCS:          11
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.932 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.944 (0.0 - 1.0)
+    
+
+
+    2022_11_20_20_52_37
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold', input_file='revised-pretrained-results/new_nl_XX_0.0.1', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          481
+    FAILED DOCS:          9
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.904 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.911 (0.0 - 1.0)
+    
+
+
+    2022_11_20_20_56_00
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='revised-pretrained-results/new_en_XX_0.0.1', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1022
+    FAILED DOCS:          16
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.93 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.942 (0.0 - 1.0)
+    
+
+
+    2022_11_27_14_47_04
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='parsing-results/en-EN.restults', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1035
+    FAILED DOCS:          3
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.945 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.958 (0.0 - 1.0)
+    
+
+
+    2022_11_27_14_49_00
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='parsing-results/de-De.restults', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          542
+    FAILED DOCS:          3
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.929 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.935 (0.0 - 1.0)
+    
+
+
+    2022_11_27_14_50_08
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='parsing-results/it-IT.restults', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          456
+    FAILED DOCS:          3
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.932 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.94 (0.0 - 1.0)
+    
+
+
+    2022_11_27_14_51_12
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='parsing-results/nl-NL.restults', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          488
+    FAILED DOCS:          2
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.934 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.94 (0.0 - 1.0)
+    
+
+
+    2022_12_06_12_59_55
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/mdrs_en_XX_0.0.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1031
+    FAILED DOCS:          7
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.934 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.947 (0.0 - 1.0)
+    
+
+
+    2023_01_08_16_57_07
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_0.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1035
+    FAILED DOCS:          3
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.946 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.959 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_02_17
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_1.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1035
+    FAILED DOCS:          3
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.947 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.96 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_04_19
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_2.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1035
+    FAILED DOCS:          3
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.946 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.959 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_11_32
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_3.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.945 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.957 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_13_25
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_all.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1036
+    FAILED DOCS:          2
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.94 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.954 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_15_09
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_mtf.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1035
+    FAILED DOCS:          3
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.929 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.945 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_16_55
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_one.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1036
+    FAILED DOCS:          2
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.946 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.959 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_22_55
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_0.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          543
+    FAILED DOCS:          2
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.903 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.91 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_24_04
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_1.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          541
+    FAILED DOCS:          4
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.906 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.912 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_26_23
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_2.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          540
+    FAILED DOCS:          5
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.913 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.919 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_27_05
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_3.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          540
+    FAILED DOCS:          5
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.918 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.924 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_28_34
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_all.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          543
+    FAILED DOCS:          2
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.92 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.927 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_30_24
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_mtf.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          545
+    FAILED DOCS:          0
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.905 (0.5 - 1.0)
+    AVERAGE F1 (lenient): 0.914 (0.526 - 1.0)
+    
+
+
+    2023_01_08_17_31_07
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_one.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          543
+    FAILED DOCS:          2
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.93 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.935 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_32_23
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_0.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          455
+    FAILED DOCS:          4
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.907 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.915 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_33_45
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_1.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          454
+    FAILED DOCS:          5
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.907 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.914 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_34_42
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_2.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          456
+    FAILED DOCS:          3
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.909 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.917 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_36_09
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_3.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          454
+    FAILED DOCS:          5
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.919 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.927 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_37_26
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_all.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          454
+    FAILED DOCS:          5
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.923 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.931 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_40_11
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_mtf.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          453
+    FAILED DOCS:          6
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.91 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.919 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_48_30
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_one.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          454
+    FAILED DOCS:          5
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.928 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.935 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_49_24
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_0.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          484
+    FAILED DOCS:          6
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.869 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.877 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_51_56
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_1.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          478
+    FAILED DOCS:          12
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.853 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.859 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_52_33
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_2.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          482
+    FAILED DOCS:          8
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.882 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.888 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_53_23
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_3.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          488
+    FAILED DOCS:          2
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.919 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.927 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_55_50
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_all.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.926 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.934 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_57_17
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_mtf.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          488
+    FAILED DOCS:          2
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.898 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.907 (0.0 - 1.0)
+    
+
+
+    2023_01_08_17_58_02
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_one.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.936 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.942 (0.0 - 1.0)
+    
+
+
+    2023_01_09_17_29_09
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_mtf.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.92 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.928 (0.0 - 1.0)
+    
+
+
+    2023_01_09_17_29_50
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_one.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          457
+    FAILED DOCS:          2
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.934 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.941 (0.0 - 1.0)
+    
+
+
+    2023_01_09_17_30_12
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_all.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.931 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.939 (0.0 - 1.0)
+    
+
+
+    2023_01_09_17_41_15
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_one.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1037
+    FAILED DOCS:          1
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.945 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.959 (0.0 - 1.0)
+    
+
+
+    2023_01_09_17_42_45
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_one.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          544
+    FAILED DOCS:          1
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.928 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.934 (0.0 - 1.0)
+    
+
+
+    2023_01_09_17_44_10
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_one.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          457
+    FAILED DOCS:          2
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.929 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.936 (0.0 - 1.0)
+    
+
+
+    2023_01_09_17_44_53
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_one.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.929 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.937 (0.0 - 1.0)
+    
+
+
+    2023_01_09_18_03_42
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_all.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1036
+    FAILED DOCS:          2
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.94 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.954 (0.0 - 1.0)
+    
+
+
+    2023_01_09_18_04_48
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_all.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          543
+    FAILED DOCS:          2
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.92 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.927 (0.0 - 1.0)
+    
+
+
+    2023_01_09_18_05_41
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_all.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.931 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.939 (0.0 - 1.0)
+    
+
+
+    2023_01_09_18_06_45
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_all.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.926 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.934 (0.0 - 1.0)
+    
+
+
+    2023_01_09_19_40_05
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.945 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.957 (0.0 - 1.0)
+    
+
+
+    2023_01_09_20_00_05
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold/', input_file='outputs2eval/lmm_de_DE_4.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          541
+    FAILED DOCS:          4
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.92 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.926 (0.0 - 1.0)
+    
+
+
+    2023_01_09_20_00_56
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold/', input_file='outputs2eval/lmm_it_IT_4.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.928 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.935 (0.0 - 1.0)
+    
+
+
+    2023_01_09_20_02_34
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_4.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          489
+    FAILED DOCS:          1
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.921 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.929 (0.0 - 1.0)
+    
+
+
+    2023_01_11_16_22_17
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.945 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.957 (0.0 - 1.0)
+    
+
+
+    2023_01_11_16_24_40
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.945 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.957 (0.0 - 1.0)
+    
+
+
+    2023_01_13_10_18_35
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.945 (0.0 - 1.0)
+    AVERAGE F1 (lenient): 0.957 (0.0 - 1.0)
+    
+
+
+    2023_01_13_10_24_36
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.672 (0.0 - 0.783)
+    AVERAGE F1 (lenient): 0.636 (0.0 - 0.772)
+    
+
+
+    2023_01_13_10_28_24
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_all.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1036
+    FAILED DOCS:          2
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.667 (0.0 - 0.783)
+    AVERAGE F1 (lenient): 0.634 (0.0 - 0.772)
+    
+
+
+    2023_01_13_10_35_19
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_one.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1037
+    FAILED DOCS:          1
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.671 (0.0 - 0.783)
+    AVERAGE F1 (lenient): 0.637 (0.0 - 0.772)
+    
+
+
+    2023_01_13_10_36_51
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_4.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          541
+    FAILED DOCS:          4
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.654 (0.0 - 0.8)
+    AVERAGE F1 (lenient): 0.612 (0.0 - 0.774)
+    
+
+
+    2023_01_13_10_37_36
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_all.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          543
+    FAILED DOCS:          2
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.654 (0.0 - 0.8)
+    AVERAGE F1 (lenient): 0.613 (0.0 - 0.774)
+    
+
+
+    2023_01_13_10_38_15
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_one.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          544
+    FAILED DOCS:          1
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.659 (0.0 - 0.8)
+    AVERAGE F1 (lenient): 0.617 (0.0 - 0.774)
+    
+
+
+    2023_01_13_10_39_12
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_4.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.656 (0.0 - 0.783)
+    AVERAGE F1 (lenient): 0.615 (0.0 - 0.789)
+    
+
+
+    2023_01_13_10_39_42
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_all.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.658 (0.0 - 0.783)
+    AVERAGE F1 (lenient): 0.617 (0.0 - 0.789)
+    
+
+
+    2023_01_13_10_40_10
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_one.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          457
+    FAILED DOCS:          2
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.657 (0.0 - 0.783)
+    AVERAGE F1 (lenient): 0.615 (0.0 - 0.789)
+    
+
+
+    2023_01_13_10_40_56
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_4.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          489
+    FAILED DOCS:          1
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.654 (0.0 - 0.8)
+    AVERAGE F1 (lenient): 0.614 (0.0 - 0.789)
+    
+
+
+    2023_01_13_10_41_26
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_all.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.656 (0.0 - 0.8)
+    AVERAGE F1 (lenient): 0.615 (0.0 - 0.789)
+    
+
+
+    2023_01_13_10_42_08
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_one.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.659 (0.0 - 0.8)
+    AVERAGE F1 (lenient): 0.618 (0.0 - 0.789)
+    
+
+
+    2023_01_13_10_43_21
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_4.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          489
+    FAILED DOCS:          1
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.727 (0.0 - 0.882)
+    AVERAGE F1 (lenient): 0.703 (0.0 - 0.867)
+    
+
+
+    2023_01_13_10_43_50
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_all.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.732 (0.0 - 0.909)
+    AVERAGE F1 (lenient): 0.707 (0.0 - 0.9)
+    
+
+
+    2023_01_13_10_44_15
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_one.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.735 (0.0 - 0.882)
+    AVERAGE F1 (lenient): 0.71 (0.0 - 0.867)
+    
+
+
+    2023_01_13_10_44_50
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_4.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.733 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.709 (0.0 - 0.84)
+    
+
+
+    2023_01_13_10_45_18
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_all.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.737 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.712 (0.0 - 0.84)
+    
+
+
+    2023_01_13_10_45_49
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.748 (0.0 - 0.865)
+    AVERAGE F1 (lenient): 0.728 (0.0 - 0.848)
+    
+
+
+    2023_01_13_10_46_26
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_one.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          457
+    FAILED DOCS:          2
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.735 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.711 (0.0 - 0.84)
+    
+
+
+    2023_01_13_10_47_25
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_4.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          541
+    FAILED DOCS:          4
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.726 (0.0 - 0.865)
+    AVERAGE F1 (lenient): 0.699 (0.0 - 0.848)
+    
+
+
+    2023_01_13_10_48_21
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_all.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1036
+    FAILED DOCS:          2
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.743 (0.0 - 0.865)
+    AVERAGE F1 (lenient): 0.724 (0.0 - 0.848)
+    
+
+
+    2023_01_13_10_48_22
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_all.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          543
+    FAILED DOCS:          2
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.725 (0.0 - 0.865)
+    AVERAGE F1 (lenient): 0.699 (0.0 - 0.848)
+    
+
+
+    2023_01_13_10_48_53
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_one.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          544
+    FAILED DOCS:          1
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.732 (0.0 - 0.865)
+    AVERAGE F1 (lenient): 0.705 (0.0 - 0.848)
+    
+
+
+    2023_01_13_10_50_16
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_one.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1037
+    FAILED DOCS:          1
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.748 (0.0 - 0.865)
+    AVERAGE F1 (lenient): 0.729 (0.0 - 0.848)
+    
+
+
+    2023_01_13_11_00_54
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.748 (0.0 - 0.865)
+    AVERAGE F1 (lenient): 0.728 (0.0 - 0.848)
+    
+
+
+    2023_01_13_13_29_32
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/nl/gold', input_file='outputs2eval/lmm_nl_XX_4.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          489
+    FAILED DOCS:          1
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.766 (0.0 - 0.882)
+    AVERAGE F1 (lenient): 0.748 (0.0 - 0.867)
+    
+
+
+    2023_01_13_13_34_18
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.789 (0.0 - 0.889)
+    AVERAGE F1 (lenient): 0.775 (0.0 - 0.875)
+    
+
+
+    2023_01_13_13_42_26
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_all.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1036
+    FAILED DOCS:          2
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.784 (0.0 - 0.889)
+    AVERAGE F1 (lenient): 0.772 (0.0 - 0.875)
+    
+
+
+    2023_01_13_13_48_06
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          544
+    FAILED DOCS:          1
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.455 (0.0 - 0.723)
+    AVERAGE F1 (lenient): 0.427 (0.0 - 0.7)
+    
+
+
+    2023_01_13_13_48_15
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_one.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1037
+    FAILED DOCS:          1
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.789 (0.0 - 0.889)
+    AVERAGE F1 (lenient): 0.777 (0.0 - 0.875)
+    
+
+
+    2023_01_13_13_49_18
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_4.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.773 (0.0 - 0.889)
+    AVERAGE F1 (lenient): 0.754 (0.0 - 0.875)
+    
+
+
+    2023_01_13_13_49_24
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_en_XX_all.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          543
+    FAILED DOCS:          2
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.458 (0.0 - 0.723)
+    AVERAGE F1 (lenient): 0.427 (0.0 - 0.7)
+    
+
+
+    2023_01_13_13_49_52
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_en_XX_one.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          544
+    FAILED DOCS:          1
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.457 (0.0 - 0.723)
+    AVERAGE F1 (lenient): 0.427 (0.0 - 0.7)
+    
+
+
+    2023_01_13_13_49_59
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_all.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.777 (0.0 - 0.889)
+    AVERAGE F1 (lenient): 0.758 (0.0 - 0.875)
+    
+
+
+    2023_01_13_13_50_31
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_4.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          541
+    FAILED DOCS:          4
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.765 (0.0 - 0.889)
+    AVERAGE F1 (lenient): 0.744 (0.0 - 0.875)
+    
+
+
+    2023_01_13_13_50_40
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_one.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          457
+    FAILED DOCS:          2
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.775 (0.0 - 0.889)
+    AVERAGE F1 (lenient): 0.756 (0.0 - 0.875)
+    
+
+
+    2023_01_13_13_51_26
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_4.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          489
+    FAILED DOCS:          1
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.766 (0.0 - 0.882)
+    AVERAGE F1 (lenient): 0.748 (0.0 - 0.867)
+    
+
+
+    2023_01_13_13_52_08
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_all.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.772 (0.0 - 0.909)
+    AVERAGE F1 (lenient): 0.753 (0.0 - 0.9)
+    
+
+
+    2023_01_13_13_52_20
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_all.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          543
+    FAILED DOCS:          2
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.765 (0.0 - 0.889)
+    AVERAGE F1 (lenient): 0.744 (0.0 - 0.875)
+    
+
+
+    2023_01_13_13_52_49
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_one.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          544
+    FAILED DOCS:          1
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.772 (0.0 - 0.889)
+    AVERAGE F1 (lenient): 0.751 (0.0 - 0.875)
+    
+
+
+    2023_01_13_13_53_24
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_one.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.775 (0.0 - 0.882)
+    AVERAGE F1 (lenient): 0.756 (0.0 - 0.867)
+    
+
+
+    2023_01_13_14_01_21
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_one.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.763 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.736 (0.0 - 0.833)
+    
+
+
+    2023_01_13_14_02_11
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_all.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          487
+    FAILED DOCS:          3
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.76 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.734 (0.0 - 0.833)
+    
+
+
+    2023_01_13_14_02_26
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.776 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.756 (0.0 - 0.846)
+    
+
+
+    2023_01_13_14_02_31
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/nl/gold/', input_file='outputs2eval/lmm_nl_XX_4.1.path', language='nl', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          489
+    FAILED DOCS:          1
+    TOTAL DOCS:           490
+
+    AVERAGE F1 (strict):  0.758 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.733 (0.0 - 0.833)
+    
+
+
+    2023_01_13_14_03_21
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_4.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          541
+    FAILED DOCS:          4
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.755 (0.0 - 0.875)
+    AVERAGE F1 (lenient): 0.727 (0.0 - 0.857)
+    
+
+
+    2023_01_13_14_03_47
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_all.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1036
+    FAILED DOCS:          2
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.77 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.753 (0.0 - 0.846)
+    
+
+
+    2023_01_13_14_04_02
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_all.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          543
+    FAILED DOCS:          2
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.756 (0.0 - 0.875)
+    AVERAGE F1 (lenient): 0.728 (0.0 - 0.857)
+    
+
+
+    2023_01_13_14_04_33
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/de/gold/', input_file='outputs2eval/lmm_de_DE_one.1.path', language='de', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          544
+    FAILED DOCS:          1
+    TOTAL DOCS:           545
+
+    AVERAGE F1 (strict):  0.762 (0.0 - 0.875)
+    AVERAGE F1 (lenient): 0.734 (0.0 - 0.857)
+    
+
+
+    2023_01_13_14_04_41
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_one.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1037
+    FAILED DOCS:          1
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.775 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.756 (0.0 - 0.846)
+    
+
+
+    2023_01_13_14_05_31
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_4.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.758 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.732 (0.0 - 0.833)
+    
+
+
+    2023_01_13_14_06_07
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/en/gold/', input_file='outputs2eval/lmm_en_XX_4.1.path', language='en', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          1034
+    FAILED DOCS:          4
+    TOTAL DOCS:           1038
+
+    AVERAGE F1 (strict):  0.776 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.756 (0.0 - 0.846)
+    
+
+
+    2023_01_13_14_06_15
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_all.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          458
+    FAILED DOCS:          1
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.761 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.734 (0.0 - 0.833)
+    
+
+
+    2023_01_13_14_06_39
+
+    ARGS: Namespace(starting_path='/home/p289796/SBN-data/pmb-4.0.0.old/data/it/gold/', input_file='outputs2eval/lmm_it_IT_one.1.path', language='it', data_split='test', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           test
+    PARSED DOCS:          457
+    FAILED DOCS:          2
+    TOTAL DOCS:           459
+
+    AVERAGE F1 (strict):  0.759 (0.0 - 0.857)
+    AVERAGE F1 (lenient): 0.732 (0.0 - 0.833)
+    
+

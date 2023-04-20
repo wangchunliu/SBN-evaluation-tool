@@ -1,0 +1,70 @@
+
+    2022_09_27_14_21_13
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='data-error/en-train.txt', language='en', data_split='train', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           train
+    PARSED DOCS:          8381
+    FAILED DOCS:          0
+    TOTAL DOCS:           8381
+
+    AVERAGE F1 (strict):  1.0 (1.0 - 1.0)
+    AVERAGE F1 (lenient): 1.0 (1.0 - 1.0)
+    
+
+
+    2022_09_27_14_27_57
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/it/gold', input_file='data-error/it-train.txt', language='it', data_split='train', sbn_source='SEQ2SEQ', results_file='results.csv.it', max_workers=16)
+
+    DATA SPLIT:           train
+    PARSED DOCS:          682
+    FAILED DOCS:          0
+    TOTAL DOCS:           682
+
+    AVERAGE F1 (strict):  1.0 (1.0 - 1.0)
+    AVERAGE F1 (lenient): 1.0 (1.0 - 1.0)
+    
+
+
+    2022_09_27_14_28_14
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold', input_file='data-error/de-train.txt', language='de', data_split='train', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           train
+    PARSED DOCS:          1729
+    FAILED DOCS:          0
+    TOTAL DOCS:           1729
+
+    AVERAGE F1 (strict):  1.0 (1.0 - 1.0)
+    AVERAGE F1 (lenient): 1.0 (1.0 - 1.0)
+    
+
+
+    2022_09_27_15_32_32
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/en/gold', input_file='data-error/en-train.txt', language='en', data_split='train', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           train
+    PARSED DOCS:          8381
+    FAILED DOCS:          0
+    TOTAL DOCS:           8381
+
+    AVERAGE F1 (strict):  1.0 (1.0 - 1.0)
+    AVERAGE F1 (lenient): 1.0 (1.0 - 1.0)
+    
+
+
+    2022_09_27_15_41_30
+
+    ARGS: Namespace(starting_path='../pmb-4.0.0/data/de/gold', input_file='data-error/de-train.txt', language='de', data_split='train', sbn_source='SEQ2SEQ', results_file='results.csv', max_workers=16)
+
+    DATA SPLIT:           train
+    PARSED DOCS:          1729
+    FAILED DOCS:          0
+    TOTAL DOCS:           1729
+
+    AVERAGE F1 (strict):  1.0 (1.0 - 1.0)
+    AVERAGE F1 (lenient): 1.0 (1.0 - 1.0)
+    
+

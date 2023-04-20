@@ -1,0 +1,29 @@
+(b0 / "box"
+	:member (s0 / "sense"
+		:lemma "female"
+		:pos "n"
+		:Name (c0 / "Mary"))
+	:member (s1 / "sense"
+		:lemma "want"
+		:pos "v"
+		:Pivot s0
+		:Time (s2 / "sense"
+			:lemma "time"
+			:pos "n"
+			:EQU (c1 / "now"))
+		:Theme (s3 / "sense"
+			:lemma "paint"
+			:pos "v"
+			:Agent s0
+			:Patient (s4 / "sense"
+				:lemma "car"
+				:pos "n"
+				:User s0)
+			:Result (s5 / "sense"
+				:lemma "bright_blue"
+				:pos "a"
+				:Colour-of s4)))
+	:member s2
+	:member s3
+	:member s4
+	:member s5)

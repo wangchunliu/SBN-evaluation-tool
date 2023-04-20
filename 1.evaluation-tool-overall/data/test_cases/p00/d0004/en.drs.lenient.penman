@@ -1,0 +1,33 @@
+(b0 / "box"
+	:member (s0 / "sense"
+		:lemma "brown"
+		:pos "a")
+	:member (s1 / "sense"
+		:lemma "dog"
+		:pos "n"
+		:Colour s0)
+	:member (s2 / "sense"
+		:lemma "entity"
+		:pos "n"
+		:Sub s1
+		:Sub (s4 / "sense"
+			:lemma "dog"
+			:pos "n"
+			:Colour (s3 / "sense"
+				:lemma "grey"
+				:pos "a")))
+	:member s3
+	:member s4
+	:member (s5 / "sense"
+		:lemma "time"
+		:pos "n"
+		:EQU (c0 / "now"))
+	:member (s6 / "sense"
+		:lemma "fight"
+		:pos "v"
+		:Agent s2
+		:Time s5
+		:Location (s7 / "sense"
+			:lemma "snow"
+			:pos "n"))
+	:member s7)

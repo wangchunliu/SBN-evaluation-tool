@@ -1,0 +1,29 @@
+(b0 / "box"
+	:member (s0 / "sense"
+		:lemma "person"
+		:pos "n"
+		:EQU (c0 / "hearer"))
+	:NEGATION (b1 / "box"
+		:member (s1 / "sense"
+			:lemma "entity"
+			:pos "n")
+		:member (s2 / "sense"
+			:lemma "person"
+			:pos "n"
+			:EQU (c1 / "hearer"))
+		:member (s3 / "sense"
+			:lemma "like"
+			:pos "v"
+			:Stimulus s1
+			:Experiencer s2
+			:Time (s4 / "sense"
+				:lemma "time"
+				:pos "n"
+				:EQU (c2 / "now")))
+		:member s4
+		:NEGATION (b2 / "box"
+			:member (s5 / "sense"
+				:lemma "eat"
+				:pos "v"
+				:Agent s0
+				:Patient s1))))

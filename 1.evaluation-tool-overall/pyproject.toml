@@ -1,0 +1,12 @@
+[tool.black]
+line-length = 79
+target-version = ['py38']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = 'black'
+skip_glob = ['data/*']
+
+[tool.mypy]
+ignore_missing_imports = true
+exclude = ['data/*']

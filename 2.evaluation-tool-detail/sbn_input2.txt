@@ -1,0 +1,23 @@
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "time.n.08"
+			:TPR (c0 / "now"))
+		:member (s1 / "apple.n.01")
+		:member (s2 / "favorite.a.02")
+		:member (s3 / "fruit.n.01"
+			:Time s0
+			:Agent s1
+			:Attribute s2)))
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "time.n.08"
+			:EQU (c0 / "now"))
+		:member (s1 / "apple.n.01")
+		:member (s2 / "favorite.a.02")
+		:member (s3 / "fruit.n.01"
+			:Time s0
+			:Agent s1
+			:Attribute s2)))
+
+
