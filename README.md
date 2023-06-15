@@ -9,11 +9,17 @@ In order to make them compatible with DRS, we make some changes based on the dat
 Our fine-grained metrics consist of three categories in total: graph-level, node-level and edge-level. 
 Each category includes more fine-grained evaluation metrics. All the metrics are proposed based on the semantic information types involved in DRS.
 
+## Install
+```
+git clone https://github.com/wangchunliu/SBN-evaluation-tool.git
+```
+ - Create and activate a virtual environment (Python >= 3.9 was used)
+ - install [mtool](https://github.com/cfmrp/mtool)
 
 ### Usage
 ```
 cd 1.evaluation-tool-overall
-sh run.sh en dev  ## $LANG and $DATA
+sh run.sh en test ## $LANG and $DATA
 ```
 ### Details
 
