@@ -25,4 +25,5 @@ sh run.sh en dev  ## $LANG and $DATA
 
 - It should be noted that because some models' output may not be converted to Penman format due to format errors, in order to ensure the accuracy of fine-grained evaluation in ```2.evaluation-tool-detail```, the corresponding gold SBN is not converted to Penman format too. But it also means that the two Smatch scores may not match.
 
-
+### Cite
+If you use it, please cite paper: Discourse Representation Structure Parsing for Chinese. Chunliu Wang, Xiao Zhang and Johan Bos. NATURAL LOGIC MEETS MACHINE LEARNING IV workshop. 2023, Nancy.
