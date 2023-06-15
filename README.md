@@ -15,6 +15,9 @@ git clone https://github.com/wangchunliu/SBN-evaluation-tool.git
 ```
  - Create and activate a virtual environment (Python >= 3.9 was used)
  - install [mtool](https://github.com/cfmrp/mtool)
+```
+pip install git+https://github.com/cfmrp/mtool.git#egg=mtool
+```
 
 ### Usage
 ```
