@@ -1,0 +1,113 @@
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:TSU "now")
+	:member (s2 / "order.v.02"
+		:Agent s0
+		:Time s1
+		:Theme (s3 / "person.n.01"
+			:EQU "hearer"))
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "take.v.01"
+		:Instrument s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "person.n.01"
+			:EQU "speaker")
+		:Destination (s4 / "hour.n.01"
+			:Quantity "+")
+		:Participant (s5 / "wash.v.01"
+			:Agent s0
+			:Patient (s6 / "entity.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member s5
+		:member s6))
+
+(b0 / "box"
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "sit.v.01"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Location (s3 / "log.n.01"))
+	:member s2
+	:member s3)
+
+(b0 / "box"
+	:member (s0 / "tall.a.01"
+		:Value "?"
+		:Time (s1 / "time.n.08"
+			:EQU "now")
+		:Attribute-of (s2 / "geological_formation.n.01"
+			:Name "Matterhorn"))
+	:member s1
+	:member s2)
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "house.n.01"
+		:User s0)
+	:member (s2 / "be.v.01"
+		:Theme s1
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Location (s4 / "location.n.01"
+			:APX (s5 / "post_office.n.01")))
+	:member s3
+	:member s4
+	:member s5)
+
+(b0 / "box"
+	:member (s0 / "male.n.02")
+	:NEGATION (b1 / "box"
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "happy.a.01"
+			:Experiencer s0
+			:Time s1)))
+
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "snow.v.01"
+		:EQU s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Duration (s4 / "day.n.01"
+			:Quantity (s3 / "quantity.n.01"
+				:EQU "2")))
+	:member s2
+	:member s3
+	:member s4)
+
+(b0 / "box"
+	:NEGATION (b1 / "box"
+		:member (s0 / "person.n.01")
+		:NEGATION (b2 / "box"
+			:member (s1 / "laugh.v.01"
+				:Agent s0
+				:Time (s2 / "time.n.08"
+					:TPR "now")
+				:Theme (s4 / "error.n.01"
+					:Creator (s3 / "male.n.02")))
+			:member s2
+			:member s3
+			:member s4)))
+
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "busy.a.01"
+		:Attribute-of s0
+		:Time s1))
+

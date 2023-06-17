@@ -1,0 +1,29 @@
+(b0 / "box"
+	:member (s0 / "synset"
+		:lemma "old"
+		:pos "a"
+		:Value (c0 / "?"
+		:Time (s1 / "synset"
+			:lemma "time"
+			:pos "n"
+			:TPR (c1 / "now")
+		:Attribute-of (s2 / "synset"
+			:lemma "male"
+			:pos "n"
+			:Name (c2 / "Babe Ruth"))
+	:member s1
+	:member s2
+	:member (s3 / "synset"
+		:lemma "male"
+		:pos "n"
+		:EQU s2)
+	:member (s4 / "synset"
+		:lemma "die"
+		:pos "v"
+		:TIN s0
+		:Patient s3
+		:Time (s5 / "synset"
+			:lemma "time"
+			:pos "n"
+			:TPR (c3 / "now"))
+	:member s5)

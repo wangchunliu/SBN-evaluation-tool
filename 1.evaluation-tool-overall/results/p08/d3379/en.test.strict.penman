@@ -1,0 +1,14 @@
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "house.n.01"
+		:User s0)
+	:member (s2 / "be.v.01"
+		:Theme s1
+		:Time (s3 / "time.n.08"
+			:EQU "now")
+		:Location (s4 / "location.n.01"
+			:APX (s5 / "post_office.n.01")))
+	:member s3
+	:member s4
+	:member s5)

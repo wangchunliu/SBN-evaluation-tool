@@ -1,0 +1,9 @@
+(b0 / "box"
+	:member (s0 / "tall.a.01"
+		:Value "?"
+		:Time (s1 / "time.n.08"
+			:EQU "now")
+		:Attribute-of (s2 / "geological_formation.n.01"
+			:Name "Matterhorn"))
+	:member s1
+	:member s2)

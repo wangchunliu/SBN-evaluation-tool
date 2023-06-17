@@ -1,0 +1,10 @@
+p72/d2036		person.n.01 EQU speaker time.n.08 TSU now escort.v.01 Agent -2 Time -1 Theme +1 person.n.01 EQU hearer
+p09/d3030		time.n.08 TPR now person.n.01 EQU speaker hour.n.01 Quantity + wash.v.03 Time -3 Agent -2 Duration -1 Patient +1 entity.n.01
+p15/d1983		male.n.02 Name "Tom" sit.v.03 Agent -1 Time +1 Location +2 time.n.08 TPR now log.n.01
+p10/d1389		tall.a.01 Value ? Time +1 AttributeOf +2 time.n.08 EQU now mountain.n.01 Name "Matterhorn"
+p08/d3379		person.n.01 EQU speaker house.n.01 User -1 be.v.03 Theme -1 Time +1 Location +2 time.n.08 EQU now location.n.01 APX +1 post_office.n.01
+p57/d1532		male.n.02 NEGATION <1 time.n.08 EQU now happy.a.01 Experiencer -2 Time -1
+p73/d2400		snow.v.01 Time +1 Duration +3 time.n.08 TPR now quantity.n.01 EQU 2 day.n.01 Quantity -1
+p15/d1393		old.a.01 Value ? Time +1 AttributeOf +2 time.n.08 TPR now male.n.02 Name "Babe Ruth" male.n.02 EQU -1 die.v.01 TIN -4 Patient -1 Time +1 time.n.08 TPR now
+p35/d1567		NEGATION <1 person.n.01 NEGATION <1 laugh.v.01 Agent -1 Time +1 Theme +3 time.n.08 TPR now male.n.02 error.n.01 Creator -1
+p35/d1956		person.n.01 EQU speaker time.n.08 EQU now busy.a.01 AttributeOf -2 Time -1

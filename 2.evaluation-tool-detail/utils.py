@@ -269,7 +269,7 @@ def c2o(v2c_dict, triples):
     return (lst, dict1)
 
 
-def b2b(v2c_dict, triples): # box NEGATION box
+def b2b(v2c_dict, triples): # box CONSTRAST box without negation
     lst = []
     vrs = []
     for t in triples:

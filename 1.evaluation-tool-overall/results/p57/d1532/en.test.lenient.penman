@@ -1,0 +1,14 @@
+(b0 / "box"
+	:member (s0 / "synset"
+		:lemma "male"
+		:pos "n")
+	:NEGATION (b1 / "box"
+		:member (s1 / "synset"
+			:lemma "time"
+			:pos "n"
+			:EQU (c0 / "now")
+		:member (s2 / "synset"
+			:lemma "happy"
+			:pos "a"
+			:Experiencer s0
+			:Time s1)))

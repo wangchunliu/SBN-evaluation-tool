@@ -124,19 +124,21 @@ def smatch_score(gold: PathLike, test: PathLike) -> Dict[str, float]:
 
     return clean_dict
 
-def generate_result(args, test_sbn_line, gold_path):
+def generate_result(args, test_sbn_line, path):
+    gold_strict_path = os.path.join(args.results_path, path, f"{args.lang}.gold.strict.penman")
+    gold_lenient_path = os.path.join(args.results_path, path, f"{args.lang}.gold.lenient.penman")
+    test_path_strict = os.path.join(args.results_path, path, f"{args.lang}.test.strict")
+    test_path_lenient = os.path.join(args.results_path, path, f"{args.lang}.test.lenient")
     G = SBNGraph(source=args.sbn_source).from_string(test_sbn_line)
     lenient_err, strict_err = None, None
-    path = re.search('p\d{2}/d\d{4}', gold_path)
-    test_path = os.path.join(args.results_path, path.group(0), f"{args.lang}.test")
-    with open(test_path, 'w') as f:
+    with open(test_path_strict, 'w') as f_s, open(test_path_lenient, 'w') as f_l:
         try:
-            strict_scores = smatch_score(gold_path, G.to_penman(f.name))
+            strict_scores = smatch_score(gold_strict_path, G.to_penman(f_s.name))
         except SBNError as e_strict:
             strict_scores = dict()
             strict_err = str(e_strict)
         try:
-            lenient_scores = smatch_score(gold_path, G.to_penman(f.name, strict=False))
+            lenient_scores = smatch_score(gold_lenient_path, G.to_penman(f_l.name, strict=False))
         except SBNError as e:
             lenient_scores = dict()
             lenient_err = str(e)
@@ -152,7 +154,6 @@ def generate_result(args, test_sbn_line, gold_path):
 def full_run(args, test_sbn_line, gold_sbn):
     path = gold_sbn.split("\t")[0]
     raw_sent = gold_sbn.split("\t")[1]
-    gold_path = os.path.join(args.results_path, path, f"{args.lang}.gold.penman")
     sbn, lenient_error, strict_error = None, None, None
     strict_scores, lenient_scores = dict(), dict()
     try:
@@ -162,7 +163,7 @@ def full_run(args, test_sbn_line, gold_sbn):
             sbn,
             lenient_error,
             strict_error,
-        ) = generate_result(args, test_sbn_line, gold_path)
+        ) = generate_result(args, test_sbn_line, path)
     except Exception as e:
         logger.error(e)
 
@@ -187,16 +188,13 @@ def store_penman(args, gold_sbn):
             os.makedirs(filepath)
     for file_line in gold_sbn:
         path = file_line.split("\t")[0]
-        filepath = os.path.join(args.results_path, path, f"{args.lang}.gold.penman")
-        if args.lang == "en":
-            gold_sbn_line = file_line.split("\t")[-3]
-        elif args.lang == "zh":
-            gold_sbn_line = file_line.split("\t")[-2]
-        else:
-            gold_sbn_line = file_line.split("\t")[-1]
+        filepath_strict = os.path.join(args.results_path, path, f"{args.lang}.gold.strict.penman")
+        filepath_lenient = os.path.join(args.results_path, path, f"{args.lang}.gold.lenient.penman")
+        gold_sbn_line = file_line.split("\t")[-1]
         try:
             G = SBNGraph().from_string(gold_sbn_line)
-            G.to_penman(filepath)
+            G.to_penman(filepath_strict)
+            G.to_penman(filepath_lenient, strict=False)
         except SBNError as e:
             logger.warning(e)
 
@@ -206,8 +204,8 @@ def merge_penman(args, gold_sbn_list):
     with open(one_test_penman, 'w') as testfile, open(one_gold_penman, 'w') as goldfile:
         for file_line in gold_sbn_list:
             path = file_line.split("\t")[0]
-            test_filepath = os.path.join(args.results_path, path, f"{args.lang}.test.penman")
-            gold_filepath = os.path.join(args.results_path, path, f"{args.lang}.gold.penman")
+            test_filepath = os.path.join(args.results_path, path, f"{args.lang}.test.strict.penman")
+            gold_filepath = os.path.join(args.results_path, path, f"{args.lang}.gold.strict.penman")
             if os.path.exists(test_filepath) and os.path.getsize(test_filepath):
                 f1 = open(test_filepath, 'r')
                 testfile.writelines(f1.readlines())

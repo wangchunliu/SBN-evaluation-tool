@@ -1,0 +1,15 @@
+(b0 / "box"
+	:member (s0 / "synset"
+		:lemma "tall"
+		:pos "a"
+		:Value (c0 / "?"
+		:Time (s1 / "synset"
+			:lemma "time"
+			:pos "n"
+			:EQU (c1 / "now")
+		:Attribute-of (s2 / "synset"
+			:lemma "mountain"
+			:pos "n"
+			:Name (c2 / "Matterhorn"))
+	:member s1
+	:member s2)

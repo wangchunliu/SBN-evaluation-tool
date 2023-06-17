@@ -1,0 +1,17 @@
+(b0 / "box"
+	:member (s0 / "old.a.01"
+		:Value "?"
+		:Time (s1 / "time.n.08"
+			:TPR "now")
+		:Attribute-of (s2 / "male.n.02"
+			:Name "Babe Ruth"))
+	:member s1
+	:member s2
+	:member (s3 / "male.n.02"
+		:EQU s2)
+	:member (s4 / "die.v.01"
+		:TIN s0
+		:Patient s3
+		:Time (s5 / "time.n.08"
+			:TPR "now"))
+	:member s5)

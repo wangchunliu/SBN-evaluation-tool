@@ -1,0 +1,14 @@
+(b0 / "box"
+	:member (s0 / "synset"
+		:lemma "person"
+		:pos "n"
+		:EQU (c0 / "speaker")
+	:member (s1 / "synset"
+		:lemma "time"
+		:pos "n"
+		:EQU (c1 / "now")
+	:member (s2 / "synset"
+		:lemma "busy"
+		:pos "a"
+		:Attribute-of s0
+		:Time s1))

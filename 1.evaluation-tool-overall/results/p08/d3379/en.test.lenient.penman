@@ -1,0 +1,26 @@
+(b0 / "box"
+	:member (s0 / "synset"
+		:lemma "person"
+		:pos "n"
+		:EQU (c0 / "speaker")
+	:member (s1 / "synset"
+		:lemma "house"
+		:pos "n"
+		:User s0)
+	:member (s2 / "synset"
+		:lemma "be"
+		:pos "v"
+		:Theme s1
+		:Time (s3 / "synset"
+			:lemma "time"
+			:pos "n"
+			:EQU (c1 / "now")
+		:Location (s4 / "synset"
+			:lemma "location"
+			:pos "n"
+			:APX (s5 / "synset"
+				:lemma "post_office"
+				:pos "n")))
+	:member s3
+	:member s4
+	:member s5)

@@ -1,0 +1,8 @@
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:EQU "now")
+	:member (s2 / "busy.a.01"
+		:Attribute-of s0
+		:Time s1))

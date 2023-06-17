@@ -1,0 +1,23 @@
+(b0 / "box"
+	:member (s0 / "synset"
+		:lemma "time"
+		:pos "n"
+		:TPR (c0 / "now")
+	:member (s1 / "synset"
+		:lemma "person"
+		:pos "n"
+		:EQU (c1 / "speaker")
+	:member (s2 / "synset"
+		:lemma "hour"
+		:pos "n"
+		:Quantity (c2 / "+")
+	:member (s3 / "synset"
+		:lemma "wash"
+		:pos "v"
+		:Time s0
+		:Agent s1
+		:Duration s2
+		:Patient (s4 / "synset"
+			:lemma "entity"
+			:pos "n"))
+	:member s4)

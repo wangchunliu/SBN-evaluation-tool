@@ -1,0 +1,18 @@
+(b0 / "box"
+	:member (s0 / "synset"
+		:lemma "snow"
+		:pos "v"
+		:Time (s1 / "synset"
+			:lemma "time"
+			:pos "n"
+			:TPR (c0 / "now")
+		:Duration (s3 / "synset"
+			:lemma "day"
+			:pos "n"
+			:Quantity (s2 / "synset"
+				:lemma "quantity"
+				:pos "n"
+				:EQU (c1 / "2")))
+	:member s1
+	:member s2
+	:member s3)

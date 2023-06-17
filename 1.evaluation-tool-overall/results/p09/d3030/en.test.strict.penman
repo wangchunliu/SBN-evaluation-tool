@@ -1,0 +1,19 @@
+(b0 / "box"
+	:member (s0 / "entity.n.01")
+	:member (s1 / "take.v.01"
+		:Instrument s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Theme (s3 / "person.n.01"
+			:EQU "speaker")
+		:Destination (s4 / "hour.n.01"
+			:Quantity "+")
+		:Participant (s5 / "wash.v.01"
+			:Agent s0
+			:Patient (s6 / "entity.n.01")))
+	:member s2
+	:member s3
+	:member s4
+	:CONTINUATION (b1 / "box"
+		:member s5
+		:member s6))

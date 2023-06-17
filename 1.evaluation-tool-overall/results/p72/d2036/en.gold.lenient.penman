@@ -1,0 +1,19 @@
+(b0 / "box"
+	:member (s0 / "synset"
+		:lemma "person"
+		:pos "n"
+		:EQU (c0 / "speaker")
+	:member (s1 / "synset"
+		:lemma "time"
+		:pos "n"
+		:TSU (c1 / "now")
+	:member (s2 / "synset"
+		:lemma "escort"
+		:pos "v"
+		:Agent s0
+		:Time s1
+		:Theme (s3 / "synset"
+			:lemma "person"
+			:pos "n"
+			:EQU (c2 / "hearer"))
+	:member s3)

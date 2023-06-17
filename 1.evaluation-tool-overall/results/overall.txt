@@ -1,0 +1,65 @@
+
+        2023_06_16_15_44_03
+
+        ARGS: Namespace(gold_sbn='gold_output/path.gold.en.test', test_sbn='model_output/en.sbn.output.test', lang='en', sbn_source='SEQ2SEQ', results_path='./results', max_workers=16)
+
+        PARSED DOCS:          10
+        FAILED DOCS:          0
+        TOTAL DOCS:           10
+
+        AVERAGE F1 (strict):  0.829 (0.0 - 1.0)
+        AVERAGE F1 (lenient): 0.932 (0.649 - 1.0)
+        
+
+
+        2023_06_16_15_57_12
+
+        ARGS: Namespace(gold_sbn='gold_output/path.gold.en.test', test_sbn='model_output/en.sbn.output.test', lang='en', sbn_source='SEQ2SEQ', results_path='./results', max_workers=16)
+
+        PARSED DOCS:          10
+        FAILED DOCS:          0
+        TOTAL DOCS:           10
+
+        AVERAGE F1 (strict):  0.829 (0.0 - 1.0)
+        AVERAGE F1 (lenient): 0.932 (0.649 - 1.0)
+        
+
+
+        2023_06_16_16_02_51
+
+        ARGS: Namespace(gold_sbn='gold_output/path.gold.en.test', test_sbn='model_output/en.sbn.output.test', lang='en', sbn_source='SEQ2SEQ', results_path='./results', max_workers=16)
+
+        PARSED DOCS:          10
+        FAILED DOCS:          0
+        TOTAL DOCS:           10
+
+        AVERAGE F1 (strict):  0.829 (0.0 - 1.0)
+        AVERAGE F1 (lenient): 0.932 (0.649 - 1.0)
+        
+
+
+        2023_06_16_16_06_55
+
+        ARGS: Namespace(gold_sbn='gold_output/path.gold.en.test', test_sbn='model_output/en.sbn.output.test', lang='en', sbn_source='SEQ2SEQ', results_path='./results', max_workers=16)
+
+        PARSED DOCS:          10
+        FAILED DOCS:          0
+        TOTAL DOCS:           10
+
+        AVERAGE F1 (strict):  0.829 (0.0 - 1.0)
+        AVERAGE F1 (lenient): 0.932 (0.649 - 1.0)
+        
+
+
+        2023_06_16_16_09_33
+
+        ARGS: Namespace(gold_sbn='gold_output/path.gold.en.test', test_sbn='model_output/en.sbn.output.test', lang='en', sbn_source='SEQ2SEQ', results_path='./results', max_workers=16)
+
+        PARSED DOCS:          10
+        FAILED DOCS:          0
+        TOTAL DOCS:           10
+
+        AVERAGE F1 (strict):  0.829 (0.0 - 1.0)
+        AVERAGE F1 (lenient): 0.932 (0.649 - 1.0)
+        
+

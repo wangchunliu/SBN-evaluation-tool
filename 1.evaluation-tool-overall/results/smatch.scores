@@ -1,0 +1,51 @@
+pmb_id,source,raw_sent,sbn_str,lenient_error,strict_error,precision_lenient,recall_lenient,f1_lenient,precision,recall,f1
+p15/d1393,SEQ2SEQ,,"old.a.01    Value + Time +1 AttributeOf +2
+time.n.08   TPR now
+female.n.02 Name ""Ruth""
+male.n.02   EQU -4
+die.v.01    TIN -3 Patient -1 Time +1
+time.n.08   TPR now",,"Strict evaluation mode, possibly ill-formed graph not exported.",0.8292682926829268,0.85,0.8395061728395061,,,
+p57/d1532,SEQ2SEQ,,"male.n.02
+NEGATION   -1
+time.n.08  EQU now
+happy.a.01 Experiencer -2 Time -1",,,1.0,1.0,1.0,1.0,1.0,1.0
+p08/d3379,SEQ2SEQ,,"person.n.01      EQU speaker
+house.n.01       User -1
+be.v.01          Theme -1 Time +1 Location +2
+time.n.08        EQU now
+location.n.01    APX +1
+post_office.n.01",,,1.0,1.0,1.0,0.9523809523809523,0.9523809523809523,0.9523809523809523
+p35/d1956,SEQ2SEQ,,"person.n.01 EQU speaker
+time.n.08   EQU now
+busy.a.01   AttributeOf -2 Time -1",,,1.0,1.0,1.0,1.0,1.0,1.0
+p10/d1389,SEQ2SEQ,,"tall.a.01                 Value ? Time +1 AttributeOf +2
+time.n.08                 EQU now
+geological_formation.n.01 Name ""Matterhorn""",,,0.9545454545454546,0.9545454545454546,0.9545454545454546,0.9230769230769231,0.9230769230769231,0.9230769230769231
+p72/d2036,SEQ2SEQ,,"person.n.01 EQU speaker
+time.n.08   TSU now
+order.v.02  Agent -2 Time -1 Theme +1
+person.n.01 EQU hearer",,,0.9629629629629629,0.9629629629629629,0.9629629629629629,0.9375,0.9375,0.9375
+p15/d1983,SEQ2SEQ,,"male.n.02 Name ""Tom""
+sit.v.01  Agent -1 Time +1 Location +2
+time.n.08 TPR now
+log.n.01",,,1.0,1.0,1.0,0.9333333333333333,0.9333333333333333,0.9333333333333333
+p09/d3030,SEQ2SEQ,,"entity.n.01
+take.v.01    Instrument -1 Time +1 Theme +2 Destination +3 Participant +4
+time.n.08    TPR now
+person.n.01  EQU speaker
+hour.n.01    Quantity +
+CONTINUATION -1
+wash.v.01    Agent -5 Patient +1
+entity.n.01",,,0.5555555555555556,0.78125,0.6493506493506493,0.5357142857142857,0.7894736842105263,0.6382978723404255
+p35/d1567,SEQ2SEQ,,"NEGATION    -1
+person.n.01
+NEGATION    -1
+laugh.v.01  Agent -1 Time +1 Theme +3
+time.n.08   TPR now
+male.n.02
+error.n.01  Creator -1",,,1.0,1.0,1.0,1.0,1.0,1.0
+p73/d2400,SEQ2SEQ,,"entity.n.01
+snow.v.01     EQU -1 Time +1 Duration +3
+time.n.08     TPR now
+quantity.n.01 EQU 2
+day.n.01      Quantity -1",,,0.8333333333333334,1.0,0.9090909090909091,0.8333333333333334,1.0,0.9090909090909091

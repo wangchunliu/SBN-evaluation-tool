@@ -547,6 +547,10 @@ class SBNGraph(BaseGraph):
         Especially when indices point at impossible synsets. Cyclic graphs are
         also ill-formed, but these are not even allowed to be exported to
         Penman.
+        ###########
+        We change this part compared with Wessel' UD-Boxer paper,
+        strict evaluation used complete Wordnet and no variables for constants
+        Lenient
 
         FIXME: the DRS/SBN constants technically don't need a variable. As long
         as this is consistent between the gold and generated data, it's not a
@@ -598,17 +602,32 @@ class SBNGraph(BaseGraph):
 
             indents = tabs * "\t"
             node_tok = node_data["token"]
-            if node_data["type"] == SBN_NODE_TYPE.SYNSET:
-                if not (components := split_synset_id(node_tok)):
-                    raise SBNError(f"Cannot split synset id: {node_tok}")
-                lemma, pos, sense = [self.quote(i) for i in components]
-                ### changed part
-                wordnet = lemma.strip('"') + '.' + pos.strip('"') + '.' + sense.strip('"')
-                out_str +=f'({var_id} / {self.quote(wordnet)}' 
-            elif var_id[0] != "c":
-                out_str += f"({var_id} / {self.quote(node_tok)}"
-            else:
-                out_str += f"{self.quote(node_tok)}"
+            ##
+            if strict:
+                if node_data["type"] == SBN_NODE_TYPE.SYNSET:
+                    if not (components := split_synset_id(node_tok)):
+                        raise SBNError(f"Cannot split synset id: {node_tok}")
+                    lemma, pos, sense = [self.quote(i) for i in components]
+                    ### changed part
+                    wordnet = lemma.strip('"') + '.' + pos.strip('"') + '.' + sense.strip('"')
+                    out_str += f'({var_id} / {self.quote(wordnet)}'
+                elif var_id[0] != "c":
+                    out_str += f"({var_id} / {self.quote(node_tok)}"
+                else:
+                    out_str += f"{self.quote(node_tok)}"
+            else: # if strict == False
+                if node_data["type"] == SBN_NODE_TYPE.SYNSET:
+                    if not (components := split_synset_id(node_tok)):
+                        raise SBNError(f"Cannot split synset id: {node_tok}")
+                    lemma, pos, sense = [self.quote(i) for i in components]
+                    out_str += f'({var_id} / {self.quote("synset")}'
+                    out_str += f"\n{indents}:lemma {lemma}"
+                    out_str += f"\n{indents}:pos {pos}"
+                    # out_str += f"\n{indents}:sense {sense}"
+                    """this part should be checked if same as Wessel's evaluation"""
+                else:
+                    out_str += f"({var_id} / {self.quote(node_tok)}"
+
             if S.out_degree(current_n) > 0:
                 for edge_id in S.edges(current_n):
                     edge_name = S.edges[edge_id]["token"]

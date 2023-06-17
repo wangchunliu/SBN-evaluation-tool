@@ -1,0 +1,11 @@
+(b0 / "box"
+	:member (s0 / "person.n.01"
+		:EQU "speaker")
+	:member (s1 / "time.n.08"
+		:TSU "now")
+	:member (s2 / "order.v.02"
+		:Agent s0
+		:Time s1
+		:Theme (s3 / "person.n.01"
+			:EQU "hearer"))
+	:member s3)

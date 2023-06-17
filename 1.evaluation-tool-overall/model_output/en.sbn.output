@@ -1,2 +1,0 @@
-person.n.01 EQU speaker time.n.08 TSU now order.v.02 Agent -2 Time -1 Theme +1 person.n.01 EQU hearer
-person.n.01 EQU speaker spend.v.01 Agent -1 Time +1 Theme +2 Attribute +3 time.n.08 TPR now hour.n.01 wash.v.01 Agent -1 Patient +1 entity.n.01

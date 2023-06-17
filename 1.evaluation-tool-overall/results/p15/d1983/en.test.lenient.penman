@@ -1,0 +1,18 @@
+(b0 / "box"
+	:member (s0 / "synset"
+		:lemma "male"
+		:pos "n"
+		:Name (c0 / "Tom")
+	:member (s1 / "synset"
+		:lemma "sit"
+		:pos "v"
+		:Agent s0
+		:Time (s2 / "synset"
+			:lemma "time"
+			:pos "n"
+			:TPR (c1 / "now")
+		:Location (s3 / "synset"
+			:lemma "log"
+			:pos "n"))
+	:member s2
+	:member s3)

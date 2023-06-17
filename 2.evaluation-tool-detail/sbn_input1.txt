@@ -1,23 +1,19 @@
 (b0 / "box"
-	:NEGATION (b1 / "box"
-		:member (s0 / "time.n.01"
-			:TPR (c0 / "now"))
-		:member (s1 / "apple.n.08")
-		:member (s2 / "favorite.a.02")
-		:member (s3 / "fruit.n.01"
-			:Time s0
-			:Agent s1
-			:Attribute s2)))
+	:member (s0 / "male.n.02"
+		:Name "Tom")
+	:member (s1 / "sit.v.03"
+		:Agent s0
+		:Time (s2 / "time.n.08"
+			:TPR "now")
+		:Location (s3 / "log.n.01"))
+	:member s2
+	:member s3)
 
 (b0 / "box"
+	:member (s0 / "male.n.02")
 	:NEGATION (b1 / "box"
-		:member (s0 / "time.n.08"
-			:EQU (c0 / "now"))
-		:member (s1 / "apple.n.01")
-		:member (s2 / "favorite.a.02")
-		:member (s3 / "fruit.n.01"
-			:Time s0
-			:Agent s1
-			:Attribute s2)))
-
-
+		:member (s1 / "time.n.08"
+			:EQU "now")
+		:member (s2 / "happy.a.01"
+			:Experiencer s0
+			:Time s1)))

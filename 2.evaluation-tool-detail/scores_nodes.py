@@ -40,7 +40,6 @@ for amr_pred, amr_gold in zip(pred, gold):
             triples_gold.append((t[0][:-3], t[2], t[1]))
         else:
             triples_gold.append((t[0], t[1], t[2]))
-
     list_pred = disambig(namedent(dict_pred, triples_pred))
     list_gold = disambig(namedent(dict_gold, triples_gold))
     inters["Names"] += len(list(set(list_pred) & set(list_gold)))
@@ -49,21 +48,15 @@ for amr_pred, amr_gold in zip(pred, gold):
 
     list_pred = disambig(negations(dict_pred, triples_pred))
     list_gold = disambig(negations(dict_gold, triples_gold))
-    inters["Negations"] += len(list(set(list_pred) & set(list_gold)))
-    preds["Negations"] += len(set(list_pred))
-    golds["Negations"] += len(set(list_gold))
+    inters["Negation"] += len(list(set(list_pred) & set(list_gold)))
+    preds["Negation"] += len(set(list_pred))
+    golds["Negation"] += len(set(list_gold))
 
     list_pred = disambig(discources(dict_pred, triples_pred))
     list_gold = disambig(discources(dict_gold, triples_gold))
-    inters["Discourses"] += len(list(set(list_pred) & set(list_gold)))
-    preds["Discourses"] += len(set(list_pred))
-    golds["Discourses"] += len(set(list_gold))
-
-    list_pred = disambig(constants(dict_pred))
-    list_gold = disambig(constants(dict_gold))
-    inters["Constants"] += len(list(set(list_pred) & set(list_gold)))
-    preds["Constants"] += len(set(list_pred))
-    golds["Constants"] += len(set(list_gold))
+    inters["Discourse"] += len(list(set(list_pred) & set(list_gold)))
+    preds["Discourse"] += len(set(list_pred))
+    golds["Discourse"] += len(set(list_gold))
 
     list_pred = disambig(roles(triples_pred))
     list_gold = disambig(roles(triples_gold))

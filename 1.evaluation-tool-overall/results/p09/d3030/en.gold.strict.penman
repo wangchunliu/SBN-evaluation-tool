@@ -1,0 +1,13 @@
+(b0 / "box"
+	:member (s0 / "time.n.08"
+		:TPR "now")
+	:member (s1 / "person.n.01"
+		:EQU "speaker")
+	:member (s2 / "hour.n.01"
+		:Quantity "+")
+	:member (s3 / "wash.v.03"
+		:Time s0
+		:Agent s1
+		:Duration s2
+		:Patient (s4 / "entity.n.01"))
+	:member s4)
