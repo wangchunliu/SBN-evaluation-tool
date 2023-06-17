@@ -4,7 +4,7 @@ This repository is specially designed for SBN parsing evaluation. This is a part
 Since the evaluation metric of the original [SBN evaluation tool](https://github.com/WPoelman/ud-boxer) is too inflated, it is difficult to detect the difference between the pros and cons of different neural network models in the evaluation results.
 In order to compress the evaluation results, we change the WordNets representation and Constants representation in the Penmant format and convert the Penman format to a coarser-grained format for SBN. 
 
-<img src="https://github.com/wangchunliu/SBN-evaluation-tool/blob/main/penman_format.png" width="400px">
+<img src="https://github.com/wangchunliu/SBN-evaluation-tool/blob/main/penman_format.png" width="600px">
 
 To evaluate the quality of specific subtasks in DRS parsing, we imitate the fine-grained metrics for [AMR parsing task incremental](https://github.com/mdtux89/amr-evaluation), to DRS parsing. 
 In order to make them compatible with DRS, we make some changes based on the data characteristics of DRS.  
