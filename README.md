@@ -14,7 +14,7 @@ Each category includes more fine-grained evaluation metrics. All the metrics are
 
 ### Usage
 ```
-cd 1.evaluation-tool-overall
+cd 1.evaluation-tool-overall ## python>=3.9
 sh run.sh en test /home/p-number/project/  ## $LANG,  $DATASET and $path for this project
 ```
 ### Details
